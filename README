@@ -1,8 +1,1 @@
-## Introduction
-
-
-Artificial *neural networks* (NN) are computational structures that can identify underlying relationships in new input data by learning from previously seen examples. We consider the  training dataset ${D}_{\text{train}} := \{\boldsymbol{X},\boldsymbol{Y}\}$,  where $\boldsymbol{X} := \{\boldsymbol{x}_1, \ldots, \boldsymbol{x}_N\}$ and  $\boldsymbol{Y} := \{\boldsymbol{y}_1, \dots, \boldsymbol{y}_N\}$.  The NN define a mapping $\boldsymbol{y}=F(\boldsymbol{x}, \boldsymbol{\omega})$ that defines  the value of the $\boldsymbol{\omega}$ parameter --**the weights** of the NN--  that result in the best function approximation.
-
-The NN weights are  determined during the training stage, where the pairs of input–output examples $(\boldsymbol{x}_i, \boldsymbol{y}_i),\, i=1,\ldots, N$ --the training set-- enter into the network and the weights' values are optimized by minimizing a loss function to reduce the deviation between the networks’ predictions and the true values (targets o labels).
-
-Usually, NN' weights are deterministic point estimates, and hence, the NN'predictions are also deterministic values, which **do not allow quantifying the uncertainty of each prediction.**
+Uncertainty estimation in deep learning based- classifiers of High Energy Physics events using Monte Carlo Dropout
